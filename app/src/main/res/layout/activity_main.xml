@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.xyaokj.gvideolibrary.Gpalyer
+        android:id="@+id/g_palyer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </com.xyaokj.gvideolibrary.Gpalyer>
+    <TextView
+        android:text="11wfdfadsfad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="66666666666666666666"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
